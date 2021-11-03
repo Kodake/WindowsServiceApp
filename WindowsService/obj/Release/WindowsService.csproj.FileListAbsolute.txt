@@ -1,0 +1,10 @@
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\bin\Release\WindowsService.exe.config
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\bin\Release\WindowsService.exe
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\bin\Release\WindowsService.pdb
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Release\WindowsService.csproj.AssemblyReference.cache
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Release\WindowsService.FrmWindowsService.resources
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Release\WindowsService.ProjectInstaller.resources
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Release\WindowsService.csproj.GenerateResource.cache
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Release\WindowsService.csproj.CoreCompileInputs.cache
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Release\WindowsService.exe
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Release\WindowsService.pdb
