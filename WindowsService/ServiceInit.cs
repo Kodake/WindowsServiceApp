@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Threading;
 using System.Configuration;
 using System.ServiceProcess;
 using System.Data.SqlClient;
+using System.Timers;
 
 namespace WindowsService
 {
     public partial class ServiceInit : ServiceBase
     {
         #region Variables
-        private System.Windows.Forms.Timer _timer;
+        private System.Timers.Timer _timer;
         #endregion
         #region MetodosServicio
         public ServiceInit()
@@ -32,10 +32,10 @@ namespace WindowsService
         {
             try
             {
-                _timer = new System.Windows.Forms.Timer();
-                _timer.Interval = int.Parse(ConfigurationManager.AppSettings["IntervaloEjecucion"]);
+                _timer = new System.Timers.Timer(5000);
+                _timer.Elapsed += new ElapsedEventHandler(EventoTemporizador);
                 _timer.Enabled = true;
-                this._timer.Tick += new EventHandler(EventoTemporizador);
+                _timer.Start();
             }
             catch (Exception ex)
             {
@@ -47,7 +47,7 @@ namespace WindowsService
         {
             try
             {
-                string conString = ConfigurationManager.ConnectionStrings["Conn"].ToString();
+                string conString = @"Data Source=.;Initial Catalog=WindowsServiceApp;Integrated Security=True";
                 SqlConnection conn = new SqlConnection(conString);
                 SqlCommand cmd = new SqlCommand("SP_MARCAS_INSERT", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;

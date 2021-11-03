@@ -15,17 +15,18 @@ namespace WindowsService
         /// </summary>
         static void Main()
         {
-            ////Descomentar para el servicio
-            //ServiceBase[] ServicesToRun;
-            //ServicesToRun = new ServiceBase[]
-            //{
-            //    new ServiceInit()
-            //};
-            //ServiceBase.Run(ServicesToRun);
+            //Descomentar para el servicio
+            ServiceBase[] ServicesToRun;
+            ServicesToRun = new ServiceBase[]
+            {
+                new ServiceInit()
+            };
+            ServiceBase.Run(ServicesToRun);
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmWindowsService());
+            //Comentar para el servicio
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new FrmWindowsService());
         }
     }
 }
