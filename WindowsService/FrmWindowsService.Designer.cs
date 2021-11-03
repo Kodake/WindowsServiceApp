@@ -35,7 +35,7 @@ namespace WindowsService
             // 
             // btnIniciar
             // 
-            this.btnIniciar.Location = new System.Drawing.Point(109, 88);
+            this.btnIniciar.Location = new System.Drawing.Point(12, 12);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(90, 50);
             this.btnIniciar.TabIndex = 0;
@@ -45,7 +45,7 @@ namespace WindowsService
             // 
             // btnDetener
             // 
-            this.btnDetener.Location = new System.Drawing.Point(109, 144);
+            this.btnDetener.Location = new System.Drawing.Point(108, 12);
             this.btnDetener.Name = "btnDetener";
             this.btnDetener.Size = new System.Drawing.Size(90, 50);
             this.btnDetener.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace WindowsService
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 351);
+            this.ClientSize = new System.Drawing.Size(214, 136);
             this.Controls.Add(this.btnDetener);
             this.Controls.Add(this.btnIniciar);
             this.Name = "FrmWindowsService";
