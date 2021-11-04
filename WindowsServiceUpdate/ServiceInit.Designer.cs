@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsService
+namespace WindowsServiceUpdate
 {
     partial class ServiceInit
     {
@@ -30,7 +30,7 @@ namespace WindowsService
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            this.ServiceName = "WindowsServiceApp1";
+            this.ServiceName = "Service1";
         }
 
         #endregion

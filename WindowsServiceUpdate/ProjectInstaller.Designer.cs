@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsService
+namespace WindowsServiceUpdate
 {
     partial class ProjectInstaller
     {
@@ -29,29 +29,29 @@ namespace WindowsService
         /// </summary>
         private void InitializeComponent()
         {
-            this.ServiceProcess1 = new System.ServiceProcess.ServiceProcessInstaller();
-            this.WindowsServiceApp1 = new System.ServiceProcess.ServiceInstaller();
+            this.ServiceProcess2 = new System.ServiceProcess.ServiceProcessInstaller();
+            this.WindowsServiceApp2 = new System.ServiceProcess.ServiceInstaller();
             // 
-            // ServiceProcess1
+            // ServiceProcess2
             // 
-            this.ServiceProcess1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
-            this.ServiceProcess1.Password = null;
-            this.ServiceProcess1.Username = null;
+            this.ServiceProcess2.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
+            this.ServiceProcess2.Password = null;
+            this.ServiceProcess2.Username = null;
             // 
-            // WindowsServiceApp1
+            // WindowsServiceApp2
             // 
-            this.WindowsServiceApp1.ServiceName = "WindowsServiceApp1";
+            this.WindowsServiceApp2.ServiceName = "WindowsServiceApp2";
             // 
             // ProjectInstaller
             // 
             this.Installers.AddRange(new System.Configuration.Install.Installer[] {
-            this.WindowsServiceApp1,
-            this.ServiceProcess1});
+            this.WindowsServiceApp2,
+            this.ServiceProcess2});
 
         }
 
         #endregion
-        public System.ServiceProcess.ServiceInstaller WindowsServiceApp1;
-        public System.ServiceProcess.ServiceProcessInstaller ServiceProcess1;
+        public System.ServiceProcess.ServiceProcessInstaller ServiceProcess2;
+        public System.ServiceProcess.ServiceInstaller WindowsServiceApp2;
     }
 }

@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Configuration;
+using System.Timers;
 using System.ServiceProcess;
 using System.Data.SqlClient;
-using System.Timers;
 
 namespace WindowsService
 {

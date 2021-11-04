@@ -1,0 +1,9 @@
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\bin\Release\WindowsServiceUpdate.exe.config
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\bin\Release\WindowsServiceUpdate.exe
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\bin\Release\WindowsServiceUpdate.pdb
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\obj\Release\WindowsServiceUpdate.FrmWindowsServiceUpdate.resources
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\obj\Release\WindowsServiceUpdate.ProjectInstaller.resources
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\obj\Release\WindowsServiceUpdate.csproj.GenerateResource.cache
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\obj\Release\WindowsServiceUpdate.csproj.CoreCompileInputs.cache
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\obj\Release\WindowsServiceUpdate.exe
+C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsServiceUpdate\obj\Release\WindowsServiceUpdate.pdb

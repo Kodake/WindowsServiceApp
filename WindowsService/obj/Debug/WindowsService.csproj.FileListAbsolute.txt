@@ -7,12 +7,3 @@ C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Debug\WindowsServic
 C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.csproj.CoreCompileInputs.cache
 C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.exe
 C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.pdb
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\bin\Debug\WindowsService.exe.config
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\bin\Debug\WindowsService.exe
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\bin\Debug\WindowsService.pdb
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.FrmWindowsService.resources
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.ProjectInstaller.resources
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.csproj.GenerateResource.cache
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.csproj.CoreCompileInputs.cache
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.exe
-C:\Users\Kodake\Desktop\WindowsServiceApp\WindowsServiceApp\WindowsService\obj\Debug\WindowsService.pdb
